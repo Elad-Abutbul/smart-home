@@ -1,1 +1,1 @@
-# smart-home
+# smart_home

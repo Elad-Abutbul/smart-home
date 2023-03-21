@@ -1,0 +1,55 @@
+#btnHome {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: var(--blue);
+  font-size: 20px;
+  resize: both;
+  transition: 0.2s;
+  cursor: pointer;
+}
+#listHome {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
+#btnHome:hover {
+  
+  background-color: darkcyan;
+  width: 60px;
+  height: 60px;
+}
+.allRooms {
+  display: flex;
+flex-wrap:wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.mapHome {
+  border-radius: 10px;
+  box-shadow: 3px 3px 7px #575757c7;
+
+  width: 130px;
+  transition: all 0.2s ease-in-out;
+  padding: 10px;
+}
+.mapHome:hover {
+  transform: scale(1.05);
+}
+#closeIteam {
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: red;
+  box-shadow: 3px 3px 7px #575757c7;
+  margin-top: 8px;
+  font-size: 1em;
+  transition: all 0.2s ease-in-out;
+  width: 30px;
+  height: 30px;
+}
+#closeIteam:hover {
+  transform: scale(1.1);
+}
